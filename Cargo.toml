@@ -1,0 +1,10 @@
+[package]
+name = "rs-shaker"
+version = "0.1.0"
+authors = ["hazzard <thehazzard@gmail.com>"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "*"
